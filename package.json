@@ -1,0 +1,14 @@
+{
+  "name": "@lumjs/simple-loader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.simple-loader.js.git"
+  },
+  "dependencies": {
+    "@lumjs/core": "^1.1.0"
+  }
+}
