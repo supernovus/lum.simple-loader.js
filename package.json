@@ -1,7 +1,18 @@
 {
   "name": "@lumjs/simple-loader",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
+  "main": "lib/index.js",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./loader": "./lib/loader.js",
+    "./settings": "./lib/settings.js",
+    "./default": "./lib/default.js",
+    "./modes/js": "./lib/modes/js.js",
+    "./modes/css": "./lib/modes/css.js",
+    "./modes/html": "./lib/modes/html.js",
+    "./modes/data": "./lib/modes/data.js"
+  },
   "license": "MIT",
   "repository":
   {
@@ -9,6 +20,7 @@
     "url": "https://github.com/supernovus/lum.simple-loader.js.git"
   },
   "dependencies": {
-    "@lumjs/core": "^1.1.0"
+    "@lumjs/core": "^1.7.1",
+    "@lumjs/dom": "^1.1.0"
   }
 }
