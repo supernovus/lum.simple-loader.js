@@ -1,6 +1,6 @@
 {
   "name": "@lumjs/simple-loader",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "lib/index.js",
   "exports":
   {
@@ -20,7 +20,7 @@
     "url": "https://github.com/supernovus/lum.simple-loader.js.git"
   },
   "dependencies": {
-    "@lumjs/core": "^1.7.1",
+    "@lumjs/core": "^1.8.0",
     "@lumjs/dom": "^1.1.0"
   }
 }
